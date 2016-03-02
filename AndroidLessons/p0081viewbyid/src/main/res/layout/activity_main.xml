@@ -20,4 +20,14 @@
         android:layout_height="wrap_content"
         android:text=""
         android:id="@+id/myBtn"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New CheckBox"
+        android:id="@+id/myChb"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/myBtn"
+        android:layout_alignEnd="@+id/myBtn"
+        android:layout_marginTop="44dp"/>
 </RelativeLayout>
